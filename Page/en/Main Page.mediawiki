@@ -1,0 +1,3 @@
+Welcome to the TrueWiki Example wiki.
+
+This wiki is purely meant to show how you can setup your own wiki with git as backend storage.
