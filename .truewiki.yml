@@ -1,0 +1,25 @@
+project-name: TrueWiki
+
+# Any language can be the primary language. Primary language means TrueWiki
+# will redirect anyone landing on the root to this language.
+# In other words: "/" -> "/en" in this case.
+primary-language: en
+
+# CSS and Javascript files can be added to customize your wiki.
+# Create a "static" folder in this directory to add those files.
+javascript: []
+css:
+- /static/truewiki/truewiki.css  # Built-in CSS for a basic wiki look-and-feel
+
+# If you have a favicon, put it in the static folder and uncomment.
+# favicon: /static/favicon.ico
+
+# The license your wiki is under.
+license: GNU Free Documentation License
+
+# You can add additional HTML snippets to the header and footer.
+# The header is a good place for a logo.
+# The footer is a good place for links to your privacy policy and contact page.
+html-snippets:
+  header: ""
+  footer: ""
